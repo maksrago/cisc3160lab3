@@ -1,5 +1,7 @@
 * Lab Activity 3
 ** Language #1 - Rust
+*** Dependencies
+    - rustc
 *** Euler Problem #1
 **** Problem
      #+BEGIN_QUOTE
@@ -267,3 +269,38 @@
       F(17) = 1597
       #+END_SRC
 ** Language #2 - Python
+*** Dependencies
+    - Python 3
+    - Tkinter
+    - PAGE (if you wish to edit the GUI through another GUI)
+*** pyCulator
+**** Problem
+     Create a GUI calculator using Python.
+**** Pseudo-code
+     The pseudo-code for this problem can be thought of as:
+
+     #+BEGIN_SRC markup
+     To begin, find a simple GUI library for Python.
+
+     Each button will act as its denoted operation, when clicking on a number it should display it on an object that will act as a display.
+     
+     When clicking an operator it should take 2 operands.
+     
+     Have some sort of error checking for the calculator.
+     #+END_SRC
+**** References
+     The TKinter library makes it extremely easy to implement and create a graphical user interface using Python, and I found it to be extremely intuitive after working with Swing in Java.
+
+     - [[https://docs.python.org/3/library/tkinter.html][Tkinter Documenation]]
+     - [[http://page.sourceforge.net/][PAGE GUI builder]]
+**** Reflection
+     The arithmetic programming of this calculator was extremely straight forward, the honestly the most difficult part of making the calculator came from the tremendous amount of constant error checking for GUI elements to render properly. The TKinter documentation was extremely helpful, and I think that using the PAGE tool made it very easy to develop the GUI for the calculator.
+**** Source/Compilation
+***** Source Code
+      pyCulator.py
+***** Compilation command
+      #+BEGIN_SRC bash
+      python3 pyCulator.py
+      #+END_SRC
+****** Output
+       [[./python/pyCulator.png]]
